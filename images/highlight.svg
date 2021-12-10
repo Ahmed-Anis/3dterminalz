@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="26.668371mm"
+   height="7.0740752mm"
+   viewBox="0 0 26.668371 7.0740752"
+   version="1.1"
+   id="svg11028"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   sodipodi:docname="highlight.svg">
+  <defs
+     id="defs11022">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6754"
+       x="-0.10777962"
+       width="1.2155592"
+       y="-0.61571658"
+       height="2.2314332">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="10.493369"
+         id="feGaussianBlur6756" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="84.377223"
+     inkscape:cy="28.614553"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1344"
+     inkscape:window-height="1000"
+     inkscape:window-x="0"
+     inkscape:window-y="52"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata11025">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-118.20153,-36.528441)">
+    <rect
+       style="display:inline;opacity:0.473695;mix-blend-mode:normal;fill:#ffff00;fill-opacity:1;filter:url(#filter6754)"
+       id="rect10210"
+       width="233.66277"
+       height="40.902073"
+       x="334.89386"
+       y="1583.5715"
+       inkscape:label="Highlight"
+       transform="matrix(0.09389249,0,0,0.07750692,89.122106,-84.25737)" />
+  </g>
+</svg>
