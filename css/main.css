@@ -348,7 +348,7 @@ ul {
   margin-bottom: 0.6em;
 }
 
-/* .wait {
+.wait {
   position: relative;
 }
 .wait:after {
@@ -359,10 +359,6 @@ ul {
   height: 50px;
   background-image: url("../images/wait.svg");
   background-size: contain;
-} */
-
-.wait .emoji{
-  font-size: 1.75em;
 }
 
 .credit-card {
@@ -427,14 +423,28 @@ ul {
   */
 }
 
-.card p, .card h3 {
+.card p, .card h3, .card h4 {
   margin: 1em 0;
+}
+
+.card h4 {
+  font-size: 0.7em;
 }
 
 .card-type-email {
   width: 55px;
   top: 5px;
   left: 5px;
+  z-index: 999;
+  position: absolute;
+  transform: rotate(-11deg);
+}
+
+.card-type-landing_page {
+  width: 69px;
+  transform: rotate(-20deg);
+  top: -3px;
+  left: -5px;
   z-index: 999;
   position: absolute;
 }
@@ -911,7 +921,7 @@ footer .social img {
     */
   }
 
-  .card p, .card h3 {
+  .card p, .card h3, .card h4 {
     margin: 1em 0;
   }
 
@@ -923,11 +933,13 @@ footer .social img {
     position: absolute;
   }
 
-  .card-thumbnail {
-    width: 100%;
-    display: block;
-    position: relative;
-    margin: 0;
+  .card-type-landing_page {
+    width: 69px;
+    transform: rotate(-20deg);
+    top: -3px;
+    left: -5px;
+    z-index: 999;
+    position: absolute;
   }
 
   .card-cta {
