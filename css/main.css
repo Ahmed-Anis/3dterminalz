@@ -118,6 +118,7 @@ ul.cross li:before {
   color: white;
   text-align: center;
   border-radius: 5px;
+  transition: 0.4s ease-in;
 }
 .cta-btn:hover {
   background: #b65718;
@@ -410,6 +411,7 @@ ul {
   margin: 0 2em;
   box-shadow: 17px 6px 29px -8px #888888;
   max-width: var(--secondary-margin);
+  transition: transform 0.4s ease-in;
   /*  
   li{
     margin-bottom: 8em;
@@ -421,6 +423,10 @@ ul {
     }
   }
   */
+}
+.card:hover {
+  transform: scale(1.045);
+  cursor: pointer;
 }
 
 .card p, .card h3, .card h4 {
@@ -593,7 +599,7 @@ ul {
 }
 .cta h2 {
   font-size: 2em;
-  margin: 2em auto;
+  margin: 1em auto;
   text-align: center;
 }
 .cta ul {

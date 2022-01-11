@@ -6,7 +6,7 @@
    viewBox="0 0 136.16 110.98"
    id="svg24"
    sodipodi:docname="dialogue.svg"
-   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -27,12 +27,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.69454433"
-     inkscape:cx="361.38802"
-     inkscape:cy="97.905918"
+     inkscape:cx="357.78854"
+     inkscape:cy="92.146746"
      inkscape:window-width="1920"
-     inkscape:window-height="1000"
+     inkscape:window-height="1012"
      inkscape:window-x="0"
-     inkscape:window-y="44"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="g20" />
   <metadata
@@ -43,30 +43,29 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-56.651 -117.62)"
+     transform="translate(-56.651,-117.62)"
      id="g22">
     <g
-       transform="matrix(.27617 0 0 .34713 -33.905 -1173.4)"
-       opacity=".999"
+       transform="matrix(0.27617,0,0,0.34713,-33.905,-1173.4)"
+       opacity="0.999"
        style="mix-blend-mode:normal"
        id="g20">
       <g
-         transform="matrix(-1.0022 0 0 .72722 826.49 3701.9)"
+         transform="matrix(-1.0022,0,0,0.72722,826.49,3701.9)"
          fill-rule="evenodd"
          id="g8">
         <path
-           d="m89.69 40.064 336.96 2.3983c20.813 0.1481 56.056 5.474 63.554 34.775 8.661 38.533 11.547 211.95-2.399 238.63-10.281 21.521-19.828 28.698-29.977 34.774-30.065 14.443-170.28 11.991-170.28 11.991l131.91 100.73-195.46-101.93-145.1 1e-3c-20.36 0-38.979-12.804-45.567-40.772-11.472-50.783-13.705-193.21-2.3984-226.64 10.714-30.538 28.721-54.175 58.758-53.961z"
-           fill-opacity=".5"
+           d="m 89.69,40.064 336.96,2.3983 c 20.813,0.1481 56.056,5.474 63.554,34.775 8.661,38.533 11.547,211.95 -2.399,238.63 -10.281,21.521 -19.828,28.698 -29.977,34.774 -30.065,14.443 -170.28,11.991 -170.28,11.991 l 131.91,100.73 -195.46,-101.93 -145.1,10e-4 c -20.36,0 -38.979,-12.804 -45.567,-40.772 -11.472,-50.783 -13.705,-193.21 -2.3984,-226.64 10.714,-30.538 28.721,-54.175 58.758,-53.961 z"
+           fill-opacity="0.5"
            id="path4" />
         <path
-           d="m76.745 28.737 336.96 2.3983c20.813 0.1481 56.056 5.474 63.554 34.775 8.661 38.533 11.547 211.95-2.399 238.63-10.281 21.521-19.828 28.698-29.977 34.774-30.065 14.443-170.28 11.991-170.28 11.991l131.91 100.73-195.46-101.93-145.1 1e-3c-20.36 0-38.979-12.804-45.567-40.772-11.472-50.783-13.705-193.21-2.3984-226.64 10.714-30.538 28.721-54.175 58.758-53.961z"
-           fill="#fff"
-           stroke="#000"
+           d="m 76.745,28.737 336.96,2.3983 c 20.813,0.1481 56.056,5.474 63.554,34.775 8.661,38.533 11.547,211.95 -2.399,238.63 -10.281,21.521 -19.828,28.698 -29.977,34.774 -30.065,14.443 -170.28,11.991 -170.28,11.991 l 131.91,100.73 -195.46,-101.93 -145.1,10e-4 c -20.36,0 -38.979,-12.804 -45.567,-40.772 -11.472,-50.783 -13.705,-193.21 -2.3984,-226.64 10.714,-30.538 28.721,-54.175 58.758,-53.961 z"
+           fill="#ffffff"
+           stroke="#000000"
            stroke-linejoin="round"
            stroke-width="10"
            id="path6" />
@@ -84,11 +83,13 @@
          id="text18"><tspan
            x="0"
            y="0"
-           id="tspan26827">Boost your business with 
+           id="tspan16405">Boost your business with 
 </tspan><tspan
            x="0"
            y="53.33375"
-           id="tspan26829">awesome copy-hacks</tspan></text>
+           id="tspan16409"><tspan
+   style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+   id="tspan16407">ethical</tspan> copy-hacks</tspan></text>
     </g>
   </g>
 </svg>
