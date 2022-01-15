@@ -438,9 +438,9 @@ ul {
 }
 
 .card-type-email {
-  width: 55px;
-  top: 5px;
-  left: 5px;
+  width: 85px;
+  top: -3px;
+  left: -15px;
   z-index: 999;
   position: absolute;
   transform: rotate(-11deg);
@@ -932,9 +932,10 @@ footer .social img {
   }
 
   .card-type-email {
-    width: 55px;
-    top: 5px;
-    left: 5px;
+    width: 69px;
+    transform: rotate(-20deg);
+    top: -3px;
+    left: -5px;
     z-index: 999;
     position: absolute;
   }
