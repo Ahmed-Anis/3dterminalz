@@ -547,8 +547,11 @@ ul {
 
   */
 }
+.info ul li {
+  font-size: 0.9em;
+}
 .info h2 {
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin: 2.5em auto;
 }
 .info .tablet.active {
@@ -585,7 +588,7 @@ ul {
   position: relative;
 }
 .cta h2 {
-  font-size: 2em;
+  font-size: 0.9em;
   margin: 1em auto;
   text-align: center;
 }
@@ -597,7 +600,7 @@ ul {
   margin-left: 4em;
 }
 .cta ul li {
-  font-size: 0.9em;
+  font-size: 0.7em;
 }
 .cta .right-col {
   text-align: center;
@@ -702,6 +705,18 @@ footer .social img {
   width: 70%;
 }
 
+@media only screen and (min-width: 640px) {
+  .cta h2 {
+    font-size: 1.2em;
+  }
+  .cta ul li {
+    font-size: 0.8em;
+  }
+
+  .info ul li {
+    font-size: 1.2em;
+  }
+}
 @media only screen and (min-width: 790px) {
   /* Utillities */
   .separator {

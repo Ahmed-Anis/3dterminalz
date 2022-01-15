@@ -711,8 +711,12 @@ ul{
 
 .info{
   text-align: center;
+
+  ul li{
+    font-size: 0.9em;
+  }
   h2{
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: 2.5em auto;      
   }
 
@@ -784,7 +788,7 @@ ul{
   // TO-DO -Fix letterspace issue
   
   h2{
-    font-size: 2em;
+    font-size: .9em;
     margin: 1em auto;
     text-align: center
   }
@@ -798,7 +802,7 @@ ul{
     margin-left: 4em;
     
     li{
-      font-size: 0.9em;
+      font-size: 0.7em;
     }
   }
 
@@ -952,9 +956,27 @@ footer{
   
 }
 
-@media only screen and (max-width: 640px){
+@media only screen and (min-width: 640px){
   nav{
     //height: 70vh !important; 
+  }
+
+  .cta{
+    
+    
+    h2{
+      font-size: 1.2em;      
+    }
+
+    ul li{
+     font-size: .8em;
+    }
+  }
+
+  .info{
+    ul li{
+      font-size: 1.2em;
+    }
   }
 }
 
