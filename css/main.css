@@ -47,7 +47,7 @@ body {
 }
 
 .text-bold {
-  font-style: bold;
+  font-weight: bolder;
 }
 
 .text-upperCase {
@@ -93,9 +93,9 @@ ul.tick li:before {
   content: "";
   position: absolute;
   top: -5px;
-  left: -40px;
-  width: 30px;
-  height: 30px;
+  left: -25px;
+  width: 20px;
+  height: 20px;
   background-image: url("../images/tick.svg");
   background-size: contain;
 }
@@ -597,7 +597,7 @@ ul {
   grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
   justify-content: center;
   align-content: center;
-  margin-left: 4em;
+  margin-left: 0;
 }
 .cta ul li {
   font-size: 0.7em;
@@ -607,6 +607,8 @@ ul {
 }
 .cta .play-video {
   text-align: center;
+  margin: 0 -2em -2em -2em;
+  overflow: hidden;
 }
 .cta .play-video iframe {
   width: 330px;
@@ -632,7 +634,7 @@ ul {
   width: var(--photo-width);
 }
 .cta .hackerman .msg {
-  margin: 0 0 -0.1em 5.8em;
+  margin: 0 0 -0.1em 2.8em;
 }
 .cta .hackerman .photo {
   transform: rotateZ(5deg);
@@ -726,6 +728,10 @@ footer .social img {
   .columns {
     display: flex;
     place-content: space-between;
+  }
+
+  .info-list.columns {
+    flex-direction: row-reverse !important;
   }
 
   .cta .columns {
