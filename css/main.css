@@ -30,6 +30,10 @@ body {
   src: url(fonts/IMFellEnglishSC-Regular.ttf);
   font-family: "IM Fell English SC", sans-serif;
 }
+@font-face {
+  src: url(fonts/Sacramento-Regular.ttf);
+  font-family: "Sacramento", cursive;
+}
 /* Utillities */
 .emoji {
   margin-right: 2px;

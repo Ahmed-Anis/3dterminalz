@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="74.266045mm"
    height="23.38401mm"
    version="1.1"
    viewBox="0 0 74.266045 23.38401"
    id="svg1305"
    sodipodi:docname="credit-card.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -24,16 +24,18 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1024"
+     inkscape:window-height="1012"
      id="namedview1307"
      showgrid="false"
      inkscape:zoom="3.2952551"
-     inkscape:cx="146.55908"
-     inkscape:cy="40.765082"
+     inkscape:cx="146.42265"
+     inkscape:cy="40.967997"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1305" />
+     inkscape:current-layer="g1301"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm" />
   <defs
      id="defs127">
     <rect
@@ -388,7 +390,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3425,18 +3426,5 @@
          font-size="14px"
          id="text1297">2H</text>
     </g>
-    <text
-       xml:space="preserve"
-       style="font-size:5.69942px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.633269"
-       x="30.95537"
-       y="136.47372"
-       id="text7331"
-       transform="scale(0.97320322,1.0275346)"
-       inkscape:label="Text"><tspan
-         sodipodi:role="line"
-         id="tspan7329"
-         x="30.95537"
-         y="136.47372"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.69942px;font-family:Allura;-inkscape-font-specification:'Allura Italic';stroke-width:0.633269">Content + Copies = Sweat Sales</tspan></text>
   </g>
 </svg>
