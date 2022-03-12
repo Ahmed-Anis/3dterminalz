@@ -402,7 +402,6 @@ ul {
   margin: 0 2em;
   box-shadow: 17px 6px 29px -8px #888888;
   max-width: var(--secondary-margin);
-  transition: transform 0.4s ease-in;
   /*  
   li{
     margin-bottom: 8em;
@@ -414,10 +413,6 @@ ul {
     }
   }
   */
-}
-.card:hover {
-  transform: scale(1.045);
-  cursor: pointer;
 }
 
 .card p, .card h3, .card h4 {

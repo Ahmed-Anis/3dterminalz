@@ -530,12 +530,12 @@ ul{
     box-shadow: 17px 6px 29px -8px #888888;
     //max-width: 405px;   
     max-width: var(--secondary-margin);
-    transition: transform 0.4s ease-in;
+    // transition: transform 0.4s ease-in;
 
-    &:hover{      
-      transform: scale(1.045);      
-      cursor: pointer;    
-    }
+    // &:hover{      
+    //   transform: scale(1.045);      
+    //   cursor: pointer;    
+    // }
 
   /*  
   li{
