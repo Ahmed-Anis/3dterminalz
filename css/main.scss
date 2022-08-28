@@ -504,16 +504,13 @@ ul{
   
 }
 
-.sample-copies .container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;  
-  align-items: center;
-  
-}
 
-.card-stack{
-  //display: none;
+
+
+.card-stack{  
+  //flex-wrap: wrap !important;
+  //justify-content: center !important;  
+  //align-items: center !important;
   margin: 0;
   padding: 0;
   li{
@@ -521,6 +518,44 @@ ul{
     padding: 0;
   }
 }
+
+.sample-copies
+{
+    
+  .container{
+    //display: flex;
+    //flex-wrap: wrap;
+    //justify-content: center;  
+    //align-items: center;
+    
+  }
+
+
+  h2{
+    margin: 1.7em 0;    
+    font-family: IM Fell English SC;
+    font-size: 1.6em;
+    color: #000000;
+  }
+
+  .footer-note{
+    display: block !important;
+    margin: 1em 0;
+    font-family: IM Fell English SC;
+    font-size: .5em;
+    //font-weight: bolder;
+    color: #000000;
+  }
+
+  .emoji{
+      text-decoration: none !important;
+      font-size: 2em;
+      display: block;     
+      text-align: center;
+  }
+    
+}
+
 
 .card{
  
@@ -964,6 +999,43 @@ footer{
 }
 
 @media only screen and (min-width: 640px){
+  
+  .sample-copies
+{
+    
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-items: center;
+    
+  }
+
+
+  h2{
+    margin: 4em 0;    
+    font-size: 2em;
+    //font-weight: bolder;
+    color: #000000;
+  }
+
+  .footer-note{
+    display: block !important;
+    margin: 1em 0;
+    font-family: IM Fell English SC;
+    font-size: .5em;
+    //font-weight: bolder;
+    color: #000000;
+  }
+
+  .emoji{
+      font-size: 0.5em;
+  }
+    
+}
+
+
+  
   nav{
     //height: 70vh !important; 
   }
@@ -991,6 +1063,7 @@ footer{
 
 
 @media only screen and (min-width: 790px){
+
 
 
 /* Utillities */
@@ -1274,6 +1347,7 @@ footer{
   }
   
   
+  
   .sample-copies .container{
     //display: flex;
     //justify-content: center;  
@@ -1286,7 +1360,8 @@ footer{
   
   .card-stack{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    //grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 0.6fr));
     justify-content: center;
     align-content: center;
     grid-column-gap: 50px;

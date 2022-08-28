@@ -61,10 +61,8 @@ body {
 .highlight {
   background-image: url(../images/highlight.svg);
   background-size: cover;
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
 }
 
 header .container, footer .container {
@@ -382,13 +380,6 @@ ul {
   width: 100%;
 }
 
-.sample-copies .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
 .card-stack {
   margin: 0;
   padding: 0;
@@ -396,6 +387,26 @@ ul {
 .card-stack li {
   margin: 0 0 5em 0;
   padding: 0;
+}
+
+.sample-copies h2 {
+  margin: 1.7em 0;
+  font-family: IM Fell English SC;
+  font-size: 1.6em;
+  color: #000000;
+}
+.sample-copies .footer-note {
+  display: block !important;
+  margin: 1em 0;
+  font-family: IM Fell English SC;
+  font-size: 0.5em;
+  color: #000000;
+}
+.sample-copies .emoji {
+  text-decoration: none !important;
+  font-size: 2em;
+  display: block;
+  text-align: center;
 }
 
 .card {
@@ -707,13 +718,33 @@ footer .social img {
 }
 
 @media only screen and (min-width: 640px) {
+  .sample-copies .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .sample-copies h2 {
+    margin: 4em 0;
+    font-size: 2em;
+    color: #000000;
+  }
+  .sample-copies .footer-note {
+    display: block !important;
+    margin: 1em 0;
+    font-family: IM Fell English SC;
+    font-size: 0.5em;
+    color: #000000;
+  }
+  .sample-copies .emoji {
+    font-size: 0.5em;
+  }
   .cta h2 {
     font-size: 1.2em;
   }
   .cta ul li {
     font-size: 0.8em;
   }
-
   .info ul li {
     font-size: 1.2em;
   }
@@ -723,33 +754,27 @@ footer .social img {
   .separator {
     display: none !important;
   }
-
   .columns {
     display: flex;
     place-content: space-between;
   }
-
   .info-list.columns {
     flex-direction: row-reverse !important;
   }
-
   .cta .columns {
     display: block;
   }
-
   /* ----------------------------- */
   /* Navigation */
   .mobile-menu {
     display: none;
   }
-
   .navbar .container {
     padding: 0 1em;
     display: grid;
     grid-template-columns: 180px auto;
     justify-content: unset;
   }
-
   .navbar nav {
     display: flex;
     justify-content: space-between;
@@ -778,12 +803,10 @@ footer .social img {
   .navbar nav ul.secondary-nav, .navbar nav ul.primary-nav {
     margin-top: 1.8em;
   }
-
   /* Hero section */
   .hero {
     text-align: left;
   }
-
   footer ul {
     margin: unset !important;
   }
@@ -797,7 +820,6 @@ footer .social img {
     align-items: center;
     place-content: space-between;
   }
-
   /* ----------------------------- */
   /* info */
   .info {
@@ -805,16 +827,13 @@ footer .social img {
     z-index: 2;
     text-align: center;
   }
-
   .tablet {
     margin-top: 6em;
     width: 35em;
   }
-
   .info-list {
     margin-bottom: -7em;
   }
-
   /* ----------------------------- */
   .cta .columns {
     flex-direction: column;
@@ -868,16 +887,13 @@ footer .social img {
     background: #f9f9f9;
     z-index: 1;
   }
-
   .chat-cta {
     margin-top: 0 !important;
   }
-
   .hire-me .chat {
     width: 190px;
     margin-top: 0;
   }
-
   .hire-me .hand {
     width: 263px;
     right: -157px;
@@ -889,7 +905,6 @@ footer .social img {
   .cta .columns {
     display: flex;
   }
-
   .features {
     position: relative;
   }
@@ -900,10 +915,9 @@ footer .social img {
     right: -99px;
     width: 21em;
   }
-
   .card-stack {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 0.6fr));
     justify-content: center;
     align-content: center;
     grid-column-gap: 50px;
@@ -915,7 +929,6 @@ footer .social img {
     margin: 0 0 0 0;
     padding: 0;
   }
-
   .card {
     margin: 0 2em;
     box-shadow: 17px 6px 29px -8px #888888;
@@ -933,11 +946,9 @@ footer .social img {
     }
     */
   }
-
   .card p, .card h3, .card h4 {
     margin: 1em 0;
   }
-
   .card-type-email {
     width: 69px;
     transform: rotate(-20deg);
@@ -946,7 +957,6 @@ footer .social img {
     z-index: 999;
     position: absolute;
   }
-
   .card-type-landing_page {
     width: 69px;
     transform: rotate(-20deg);
@@ -955,7 +965,6 @@ footer .social img {
     z-index: 999;
     position: absolute;
   }
-
   .card-cta {
     border-radius: unset;
     padding: 8px 14px;
@@ -963,11 +972,9 @@ footer .social img {
     margin: 0 0 2em 0;
     display: inline-block;
   }
-
   .card-content {
     margin: 0 2em;
   }
-
   .copy-date {
     color: #e0e0e0;
     position: relative;
@@ -1000,24 +1007,20 @@ footer .social img {
     top: -560px;
     right: -100px;
   }
-
   .hire-me .chat {
     width: 230px;
     margin-left: 10em;
     margin-top: 4em;
   }
-
   .sheets {
     bottom: -160px !important;
     right: -99px !important;
     width: 27em !important;
   }
-
   .cta .columns {
     flex-direction: row-reverse;
     margin-top: 2em;
   }
-
   .hire-me {
     position: relative;
   }
