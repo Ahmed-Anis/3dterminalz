@@ -381,7 +381,7 @@ ul {
 }
 
 .card-stack {
-  margin: 0;
+  margin: 2em 0;
   padding: 0;
 }
 .card-stack li {
@@ -389,11 +389,18 @@ ul {
   padding: 0;
 }
 
-.sample-copies h2 {
-  margin: 1.7em 0;
+.sample-copies .card-stack-headline {
+  margin: 2em 0;
+  text-align: center;
+}
+.sample-copies .card-stack-headline h2 {
   font-family: IM Fell English SC;
   font-size: 1.6em;
   color: #000000;
+}
+.sample-copies .card-stack-headline small {
+  font-size: 0.8em;
+  color: red;
 }
 .sample-copies .footer-note {
   display: block !important;
@@ -724,10 +731,11 @@ footer .social img {
     justify-content: center;
     align-items: center;
   }
-  .sample-copies h2 {
-    margin: 4em 0;
+  .sample-copies .card-stack-headline {
+    margin: 1.7em 0;
+  }
+  .sample-copies .card-stack-headline h2 {
     font-size: 2em;
-    color: #000000;
   }
   .sample-copies .footer-note {
     display: block !important;
@@ -922,7 +930,7 @@ footer .social img {
     align-content: center;
     grid-column-gap: 50px;
     grid-row-gap: 100px;
-    margin: 0;
+    margin: 4em 0;
     padding: 0;
   }
   .card-stack li {
